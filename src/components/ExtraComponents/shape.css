@@ -1,0 +1,21 @@
+.shape{
+    transform: scale(2);
+    pointer-events: none;
+    position: absolute;
+    
+}
+
+.shape-bottom{
+    bottom: 290px;
+    left: 0;
+    right: 0;
+    transform-origin: top center;
+}
+
+.shape:not([class*=shape-blur]){
+    overflow: hidden;
+}
+
+.svg{
+    vertical-align: middle;
+}

@@ -4,7 +4,7 @@ import PricingCheck from './ExtraComponents/PricingCheck.jsx';
 import { checks } from '../constants/index.js';
 import './ExtraComponents/PricingSwitch.css';
 import { useSpring,animated } from 'react-spring';
-
+import './ExtraComponents/shape.css'
 
 
 const Pricing = () => {
@@ -41,8 +41,8 @@ const Pricing = () => {
           </div>
           {/* Price Card */}
           <div className={`  max-w-[90%]  m-auto pb-5 ${styles.flexCenter}  flex-wrap  `}>
-            {/* Right Card */}
-            <div className={`PricingCard container min-h-[600px] bg-[rgba(255,255,255,1)] ${styles.PricingCard} ${animation.lift} relative z-0`}>
+            {/* left Card */}
+            <div className={`PricingCard container min-h-[600px] bg-[rgba(255,255,255,1)] ${styles.PricingCard} ${animation.lift} relative z-[2]`}>
               <div className=" ss:px-5 min-h-[530px] pt-10 pb-7 ">
                   {/* monthly/annual Price */}
                 <div className={`${styles.flexCenter} flex-col ss:px-5 `}>
@@ -75,8 +75,8 @@ const Pricing = () => {
                     <a href="#" className=' text-white font-HKGroteskPro-serif text-lg'>Get it now</a>
                   </div>
             </div>
-            {/* left Card */}
-            <div className={` bg-[rgba(255,255,255,0.7)] min-h-[530px] ${styles.PricingCard} ${animation.lift} `}>
+            {/* right Card */}
+            <div className={` bg-[rgb(247,247,248)] shadow-gray-200 shadow-sm min-h-[530px] ${styles.PricingCard} ${animation.lift} z-[1] right-2 relative `}>
               <div className= {`xs:px-12  py-14 min-h-[460px] `} >
                 <div className={`${styles.flexCenter} flex-col px-5`}>
                     <div className={ `${styles.PricingBadge} mb-20 `}>
@@ -96,7 +96,14 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-     
+      {/* shape */}
+      <div class="relative z-[0] ">
+      <div class="shape shape-bottom  text-dark  ">
+      <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path>
+        </svg>
+            </div>
+    </div>
     </div>
   )
 }
