@@ -13,6 +13,8 @@ import {
   CTA,
 } from "./components/index";
 
+
+
 const App = () => {
   return (
     <div className=" bg-smoke w-full overflow-hidden">
@@ -34,13 +36,16 @@ const App = () => {
             <About />
             <Testimonials />
             <Stats />
-            <Pricing />
+           
             <FAQ />
             <CTA />
           </div>
         </div>
       </div>
+      <Pricing />
+      
     </div>
+    
   );
 };
 

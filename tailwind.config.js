@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+
   theme: {
     extend: {
       colors: {
@@ -11,6 +12,7 @@ export default {
         textSecondary: "rgb(51,94,234)",
         smoke: "rgba(241,244,248,1)",
         dark: "rgba(27,42,78,1)",
+        lightdark: "rgba(113,118,149,1)", //for paragraph
       },
       fontFamily: {
         HKGroteskPro: ["HKGroteskPro", "serif"],

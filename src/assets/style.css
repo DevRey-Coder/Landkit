@@ -6,7 +6,8 @@ extend: {
       navLink: "#506690",
       textSecondary: "rgb(51,94,234)",
       smoke: "rgba(241,244,248,1)",
-      dark: "rgba(27,42,78,1)"
+      dark: "rgba(27,42,78,1)",
+      lightdark: "rgba(113,118,149,1)",
     },
     fontFamily: {
         HKGroteskPro: ["HKGroteskPro","serif"],
@@ -21,4 +22,5 @@ extend: {
     xl: "1700px",
   },
 
+ 
   /* Font Download Link - https://www.fontsquirrel.com/fonts/hk-grotesk */
