@@ -7,6 +7,7 @@ import { useSpring,animated } from 'react-spring';
 import './ExtraComponents/shape.css'
 
 
+
 const Pricing = () => {
   const [isAnnual,setIsAnnual]=useState(true);
 
@@ -97,13 +98,14 @@ const Pricing = () => {
         </div>
       </div>
       {/* shape */}
-      <div class="relative z-[0] ">
-      <div class="shape shape-bottom  text-dark  ">
+      <div className="relative z-[0] ">
+      <div className="shape shape-bottom  text-dark  ">
       <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path>
         </svg>
             </div>
     </div>
+     
     </div>
   )
 }
