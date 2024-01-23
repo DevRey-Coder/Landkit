@@ -37,12 +37,13 @@ const App = () => {
             <Testimonials />
             <Stats />
            
-            <CTA />
+           
           </div>
         </div>
       </div>
       <Pricing />
       <FAQ/>
+      <CTA />
       
     </div>
     
