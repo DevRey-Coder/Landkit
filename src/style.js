@@ -18,6 +18,9 @@ const styles = {
 
     PricingCard: "w-[500px] rounded-md border-solid ",
     PricingBadge: "bg-primary bg-opacity-[0.1] text-primary w-[100px] text-center rounded-2xl pb-1 ",
+
+    FooterA: "mb-4 text-lg font-HKGroteskPro-serif  text-[rgb(120,137,170)]",
+    FooterH1: "text-sm mb-[10px] text-lightdark",
   };
 
   export const animation = {

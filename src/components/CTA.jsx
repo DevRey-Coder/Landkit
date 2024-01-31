@@ -4,7 +4,7 @@ import styles from '../style'
 import './ExtraComponents/CTAButton.css'
 const CTA = () => {
   return (
-    <div>
+    
       <div className='w-[100%] pt-15  relative bottom-[43rem] xs:bottom-[42rem] sm:bottom-[45rem] md:bottom-[40rem]'>
         <div className=' w-[80%] md:w-[55%] m-auto '>
           <div className={`${styles.flexCenter} flex-col text-center`}>
@@ -25,7 +25,7 @@ const CTA = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   )
 }
 

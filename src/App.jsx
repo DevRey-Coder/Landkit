@@ -11,13 +11,15 @@ import {
   Pricing,
   FAQ,
   CTA,
+  Footer,
 } from "./components/index";
+
 
 
 
 const App = () => {
   return (
-    <div className=" bg-smoke w-full overflow-hidden">
+    <div className=" bg-smoke w-full overflow-hidden ">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
@@ -44,7 +46,7 @@ const App = () => {
       <Pricing />
       <FAQ/>
       <CTA />
-      
+      <Footer/>
     </div>
     
   );

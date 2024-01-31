@@ -8,6 +8,7 @@ import Stats from "./Stats";
 import Pricing from "./Pricing";
 import FAQ from "./FAQ";
 import CTA from "./CTA";
+import Footer from "./Footer";
 
 export {
     Navbar,
@@ -19,5 +20,6 @@ export {
     Stats,
     Pricing,
     FAQ,
-    CTA
+    CTA,
+    Footer
 }

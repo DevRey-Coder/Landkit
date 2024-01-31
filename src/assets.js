@@ -22,7 +22,7 @@ export function dribble() {
 
 }
 
-export function instagram() {
+export class instagram {
 
 }
 
@@ -42,18 +42,18 @@ export function testimonial2() {
 
 }
 
-export function instagramFooter() {
+export function instagramFooter () {
 
 }
 
-export function facebookFooter() {
+export function facebookFooter () {
 
 }
 
-export function twitterFooter() {
+export function twitterFooter () {
 
 }
 
-export function pinterestFooter() {
+export function pinterestFooter () {
 
 }
